@@ -1,0 +1,24 @@
+{
+  "xVals" : [0.01,0.1,0.20,0.25,0.5,0.75,1],
+  "xmin" :0,
+  "ymin" :0,
+  "xtick":0.2,
+  "ytick":10,
+  "yVals" : [
+    {
+      "file": "/Users/shiva/PycharmProjects/simpleAvgPlot/data/avg_LDT_LimitedMemory_1GB_8joins.json",
+      "label": "Left Deep Tree",
+      "ignore":["Q(0,1)"]},
+    {
+      "file": "/Users/shiva/PycharmProjects/simpleAvgPlot/data/avg_LimitedHybridRDT1GB.json",
+      "label": "Right Deep Tree",
+      "ignore":["Q(0,1)"]},
+    {
+      "file": "/Users/shiva/PycharmProjects/simpleAvgPlot/data/avg_sequentialHybridRDT_LimitedMemory_1GB_8joins.json",
+      "label": "Sequential Right Deep Tree",
+      "ignore":["Q(0,1)"]}
+  ],
+  "xlable":"Number of Joins",
+  "ylabel" : "Response Time(ms)",
+  "title" : "Unlimited Memory"
+}
