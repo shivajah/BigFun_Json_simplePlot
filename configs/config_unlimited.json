@@ -18,7 +18,7 @@
       "label": "Sequential Right Deep Tree",
       "ignore":["Q(0,1)"]}
   ],
-  "xlable":"Number of Joins",
+  "xlabel":"Number of Joins",
   "ylabel" : "Response Time(ms)",
   "title" : "Unlimited Memory"
 }
